@@ -1,4 +1,4 @@
-class encrypt:
+class Encrypt:
     
     """Luokka viestin salaamiseen.
     """

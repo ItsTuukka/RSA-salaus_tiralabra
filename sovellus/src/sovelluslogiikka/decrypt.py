@@ -1,4 +1,4 @@
-class decrypt:
+class Decrypt:
     
     """Luokka salatun viestin purkamiseen.
     """

@@ -1,9 +1,9 @@
 import unittest
-from sovelluslogiikka.RSAkey import rsa_key
+from sovelluslogiikka.rsa_key import RSAKey
 
 class TestRsaKey(unittest.TestCase):
     def setUp(self):
-        self.test_key = rsa_key(3233, 17)
+        self.test_key = RSAKey(3233, 17)
     
     def test_get_modulus(self):
         self.assertEqual(3233, self.test_key.get_modulus())

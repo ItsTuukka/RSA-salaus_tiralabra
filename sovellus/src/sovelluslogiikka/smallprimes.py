@@ -1,5 +1,5 @@
-class small_primes:
-    
+class SmallPrimes:
+
     """Luokka pienten alkulukujen luomiseen.
 
     Attributes: 

@@ -1,11 +1,11 @@
 import unittest
-from sovelluslogiikka.generate_keys import key_generator
-from sovelluslogiikka.RSAkey import rsa_key
-from sovelluslogiikka.smallprimes import small_primes
+from sovelluslogiikka.generate_keys import KeyGenerator
+from sovelluslogiikka.rsa_key import RSAKey
+from sovelluslogiikka.smallprimes import SmallPrimes
 
 class TestKeyGenerator(unittest.TestCase):
     def setUp(self):
-        self.generator = key_generator(2048, small_primes, rsa_key)
+        self.generator = KeyGenerator(2048, SmallPrimes, RSAKey)
         self.big_prime = 982451653
         self.big_composite = 124251499
     

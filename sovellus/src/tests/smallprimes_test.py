@@ -1,5 +1,5 @@
 import unittest
-from sovelluslogiikka.smallprimes import small_primes
+from sovelluslogiikka.smallprimes import SmallPrimes
 
 list_of_primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29,
                     31, 37, 41, 43, 47, 53, 59, 61, 67,
@@ -13,7 +13,7 @@ list_of_primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29,
 
 class TestSmallprimes(unittest.TestCase):
     def setUp(self):
-        self.sm = small_primes(350)
+        self.sm = SmallPrimes(350)
     
     def test_prime_list(self):
         self.assertEqual(list_of_primes, self.sm.prime_list)

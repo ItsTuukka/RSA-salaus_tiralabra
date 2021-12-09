@@ -1,9 +1,8 @@
 import random
 import math
-from timeit import default_timer as timer
 
 
-class key_generator:
+class KeyGenerator:
 
     """Luokka vastaa RSA-avainten luomisesta.
 
@@ -149,11 +148,3 @@ class key_generator:
             else:
                 return False
         return True
-
-
-if __name__ == '__main__':
-    start = timer()
-    generate = key_generator(2048)
-    generate.generate_keys()
-    end = timer()
-    print(end - start)

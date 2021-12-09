@@ -1,4 +1,4 @@
-class rsa_key:
+class RSAKey:
     """Luokka muodostaa RSA-avain olion.
 
     Attributes:
