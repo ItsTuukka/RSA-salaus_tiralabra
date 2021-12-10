@@ -13,7 +13,7 @@ class UI:
         self._root = root
 
     def start(self):
-        head_label = ttk.Label(master=self._root, text="RSA-salaus ohjelma", font="Helvetica 20 bold")
+        head_label = ttk.Label(master=self._root, text="RSA-salausohjelma", font="Helvetica 20 bold")
         key_length_label = ttk.Label(master=self._root, text="Anna avainten pituus biteissä:", font=("Helvetica 13"))
         self.key_length_entry = ttk.Entry(master=self._root)
         generate_button = ttk.Button(master=self._root, text="Luo avainpari", command=self.generate)
@@ -59,6 +59,7 @@ class UI:
         self.msg_size = len(msg.encode())
         encrypted_msg = Encrypt().encrypt(msg, self.kg.pub_key)
         self.msg2_entry.insert(tkinter.END, encrypted_msg)
+        self.msg3_entry.insert(tkinter.END, encrypted_msg)
 
     def decrypt(self):
         encrypted_msg = self.msg3_entry.get("1.0", "end-1c")
