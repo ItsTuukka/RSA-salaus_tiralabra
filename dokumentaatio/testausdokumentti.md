@@ -18,9 +18,9 @@ Salatun viestin purkamisesta vastaa `Decrypt` -luokka testataan omassa luokassaa
 
 ## Testikattavuus
 
-Testien haarautumakattavuus on 94%. Raportista on jätetty ulkopuolelle käyttöliittymän koodi.
+Testien haarautumakattavuus on 99%. Testeistä on jätetty ulkopuolelle ui kansion sisältö, joka vastaa sovelluksen graafisestä käyttöliittymästä.
 
-![coverage](https://github.com/ItsTuukka/RSA-salaus_tiralabra/blob/master/dokumentaatio/kuvat/rsa_coverage.png)
+![coverage](https://github.com/ItsTuukka/RSA-salaus_tiralabra/blob/master/dokumentaatio/kuvat/final_coverage.png)
 
 ## Järjestelmätestaus
 
