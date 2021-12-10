@@ -6,15 +6,15 @@ Yksikkötestaus suoritetaan automaattisesti unittestiä käyttäen.
 
 ### Sovelluslogiikka
 
-Pienistä alkuluvuista vastaavaa `small_primes` -luokkaa testataan omassa luokassaan. `TestSmallprimes` -testiluokka vertaa `small_primes` -luokan `generate_list` -metodin tuottamaa listaa ja vertaa sitä tunnettuun listaan alkuluvuista.
+Pienistä alkuluvuista vastaavaa `SmallPrimes` -luokkaa testataan omassa luokassaan. `TestSmallprimes` -testiluokka vertaa `SmallPrimes` -luokan `generate_list` -metodin tuottamaa listaa ja vertaa sitä tunnettuun listaan alkuluvuista.
 
-RSA-avainparin generoimisesta vastaava `key_generator` -luokka testataan omassa luokassaan. `TestKeyGenerator` -testiluokka testaa alkuluvun etsimiseen tarkotettuja metodeja tunnetulla alkuluvulla sekä tunnetulla yhdistetyllä luvulla.
+RSA-avainparin generoimisesta vastaava `KeyGenerator` -luokka testataan omassa luokassaan. `TestKeyGenerator` -testiluokka testaa alkuluvun etsimiseen tarkotettuja metodeja tunnetulla alkuluvulla sekä tunnetulla yhdistetyllä luvulla.
 
-RSA-avaimen tallentamisesta ja hallinnoimisesta vastaava `rsa_key` -luokka testataan omassa luokassaan. `TestRsaKey` -testiluokka testaa avaimen moduluksen ja eksponentin palauttamista.
+RSA-avaimen tallentamisesta ja hallinnoimisesta vastaava `RSAKey` -luokka testataan omassa luokassaan. `TestRsaKey` -testiluokka testaa avaimen moduluksen ja eksponentin palauttamista.
 
-Viestin salaamisesta vastaava `encrypt` -luokka testaan omassa luokassaa. `TestEncrypt` -testiluokka testaa viestin salaamista ja salaamisoperaation eri vaiheita.
+Viestin salaamisesta vastaava `Encrypt` -luokka testaan omassa luokassaa. `TestEncrypt` -testiluokka testaa viestin salaamista ja salaamisoperaation eri vaiheita.
 
-Salatun viestin purkamisesta vastaa `decrypt` -luokka testataan omassa luokassaan. `TestDecrypt` -testiluokka testaa viestin purkamista ja purkuoperaation eri vaiheita.
+Salatun viestin purkamisesta vastaa `Decrypt` -luokka testataan omassa luokassaan. `TestDecrypt` -testiluokka testaa viestin purkamista ja purkuoperaation eri vaiheita.
 
 ## Testikattavuus
 
