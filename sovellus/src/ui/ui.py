@@ -47,7 +47,7 @@ class UI:
         self._root.grid_rowconfigure(0, minsize=50)
     
     def generate(self):
-        length = self.key_length_entry.get()
+        length = int(self.key_length_entry.get())
         self.kg = KeyGenerator(int(length), SmallPrimes, RSAKey)
         self.kg.generate_keys()
         self.key_length_entry.delete(tkinter.END)
@@ -55,7 +55,7 @@ class UI:
         keys_generated.grid(row=3, column=2)
     
     def encrypt(self):
-        msg = self.msg1_entry.get("1.0", "end-1c")
+        msg = str(self.msg1_entry.get("1.0", "end-1c"))
         self.msg_size = len(msg.encode())
         encrypted_msg = Encrypt().encrypt(msg, self.kg.pub_key)
         self.msg2_entry.insert(tkinter.END, encrypted_msg)
