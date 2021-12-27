@@ -36,11 +36,13 @@ Ohjelman käyttöliittymä näyttää tältä:
 2. Salaa haluttu viesti.
   - Syötä viesti, jonka haluat salata.
       - Ohjelma ilmoittaa, jos viestiä ei voi salata.
+  - Salaa viesti painamalla `salaa viesti` painiketta.
   - Onnistuneesti salattu viesti tulee salattuna näkyviin `Salattu viesti` laatikkoon ja automaattisesti kopioidaan purettavaksi.
 
 3. Pura salattu viesti.
   - Syötä salattu viesti, tämä boksi täyttyy automaattisesti kun salaat viestin.
       - Ohjelma ilmoittaa, jos vietiä ei voida purkaa.
-  - Onnistuneesti purettu viesti tulee näkyviin `Purettu viesti` laatikkoon
+  - Pura viesti painamalla `Pura viesti` painiketta.
+  - Onnistuneesti purettu viesti tulee näkyviin `Purettu viesti` laatikkoon.
 
 Voit poistua ohjelmasta painamalla oikeassa yläkulmassa olevaa punaista raksia.
