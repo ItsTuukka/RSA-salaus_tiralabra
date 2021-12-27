@@ -68,7 +68,11 @@ Ohjelman sovelluslogiikka koostuu viidestä luokasta:
 
 ## Saavutetut aikavaativuudet
 
-RSA-avainparin luomiseen tarvitaan kaksi suurta alkulukua p ja q, niin että p != q. Näiden alkulukujen löytämiseen ohjelma käyttää Eratostheneen seulaa ja Miller-Rabin testiä. Eratostheneen seula luo alkulukuja aina parametriin n asti ja sen aikavaativuus on O(n log log n). Miller-Rabin testi on todennäköisyyksiin perustava alkuluku testaus. Todennäköisyys, että Miller_rabinin hyväksymä luku *ei ole* alkuluku on 4^-k (k on iteraatioiden määrä, tässä ohjelmassa k=40). Miller-Rabin algoritmin aikavaativuus on O(k log^3 n).
+RSA-avainparin luomiseen tarvitaan kaksi suurta alkulukua p ja q, niin että p != q. Näiden alkulukujen löytämiseen ohjelma käyttää Eratostheneen seulaa ja Miller-Rabin testiä. Eratostheneen seula luo alkulukuja aina parametriin n asti ja sen aikavaativuus on O(n log log n). Miller-Rabin testi on todennäköisyyksiin perustava alkuluku testaus. Todennäköisyys, että Miller-rabinin hyväksymä luku **ei ole** alkuluku on 4^-k (k on iteraatioiden määrä, tässä ohjelmassa k=40). Miller-Rabin algoritmin aikavaativuus on O(k log^3 n).
+
+## Tietorakenteet ja saavutetut tilavaativuudet
+
+RSA-saluksessa käytetään vain yksittäisiä muuttujia, joten kaikki tilavaativuudet ovat O(1).
            
 ## Suorituskykyvertailu
 
