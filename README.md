@@ -7,6 +7,7 @@ Helsingin yliopiston Aineopintojen harjoitustyö: Tietorakenteet ja algoritmit
 - [Määrittelydokumentti](https://github.com/ItsTuukka/RSA-salaus_tiralabra/blob/master/dokumentaatio/maarittelydukumentti.md)
 - [Testausdokumentti](https://github.com/ItsTuukka/RSA-salaus_tiralabra/blob/master/dokumentaatio/testausdokumentti.md)
 - [Toteutusdokumentti](https://github.com/ItsTuukka/RSA-salaus_tiralabra/blob/master/dokumentaatio/toteutusdokumentti.md)
+- [Käyttöohje](https://github.com/ItsTuukka/RSA-salaus_tiralabra/blob/master/dokumentaatio/kayttoohje.md)
 
 ## Viikkoraportit
 
