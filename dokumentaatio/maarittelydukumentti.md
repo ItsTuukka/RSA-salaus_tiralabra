@@ -27,7 +27,7 @@ RSA-salaus perustuu erittäin suurien alkulukujen löytämiseen, eikä projektis
  
 ## Tavoitteena olevat aikavaativuudet
 
-- Miller-Rabin algoritmi:
+- Miller-Rabin algoritmi
   - Aikaavituus: O(k log^3 n), missä k on läpikäyntien määrä ja n on testattava luku.
 
 - Eratostheneen seula
