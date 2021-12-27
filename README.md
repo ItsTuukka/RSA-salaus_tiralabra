@@ -20,7 +20,7 @@ Helsingin yliopiston Aineopintojen harjoitustyö: Tietorakenteet ja algoritmit
 
 ## Release
 
-[Release](https://github.com/ItsTuukka/RSA-salaus_tiralabra/releases/tag/v.1.0)
+Löydät sen täältä [täältä](https://github.com/ItsTuukka/RSA-salaus_tiralabra/releases/tag/v.1.0).
 
 ## Komentorivikomennot (suoritetaan sovellus kansiossa)
 
