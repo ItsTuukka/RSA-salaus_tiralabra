@@ -84,3 +84,13 @@ Avaimen pituus bitteinä | Keskiarvo (10 suorituskertaa)|
 2048 | 0,702s
 4096 | 8,785s
 
+## Mahdolliset puutteet ja parannusehdotukset
+
+Ohjelma on pitkälti "proof on concept" tyyppinen ja tehty algoritmien käytön harjoittelua mielessä pitäen. Jotta ohjelmalla olisi oikeaa käyttöä, pitäisi lisätä online komponentti, jotta viestin voisi oikeasti lähettää koneelta toiselle.
+
+## Lähteet
+
+- https://en.wikipedia.org/wiki/RSA_(cryptosystem)
+- https://en.wikipedia.org/wiki/Primality_test
+- https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test
+- https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
