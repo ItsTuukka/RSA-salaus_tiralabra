@@ -24,7 +24,7 @@ Testien haarautumakattavuus on 99%. Testeistä on jätetty ulkopuolelle ui kansi
 
 ## Järjestelmätestaus
 
-Sovellusta testattu järjestelmätasolla manuaalisesti oikeilla syötteillä, eikä ongelmia ole havaittu. Vääriin/viallisiin syötteisiin ei ole vielä varauduttu.
+Sovellusta on testattu järjestelmätasolla manuaalisesti eikä ongelmia ole havaittu.
 
 ## Suorituskykytestaus
 
